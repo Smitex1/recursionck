@@ -1,0 +1,4 @@
+FUNCTION ispalindrome(word) {
+    var reversedword = word.split('').reverse().join('');
+    return word === reversedWord;
+}
